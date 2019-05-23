@@ -36,6 +36,13 @@ public class Main {
                     case"eat food":
                         eat();
                      break;
+                    case"gather food":
+                        get food();
+                        break;
+                    case"to check your vitals":
+                        vitals();
+                        break;
+                        case""
 
 
 
@@ -120,6 +127,11 @@ public class Main {
 
 
     }
+    public static void vitals(){
+        System.out.println("Food: " +Inventory.userFood);
+        System.out.println("Water " +Inventory.userWater);
 
+    }
+    public static void
 
     }
